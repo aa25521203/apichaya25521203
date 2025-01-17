@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>video</title>
+    <!-- javascript audio play -->
+    <script type="text/javascript">
+        function playsong() {
+            let au = document.getElementById("audiol");
+            au.play();
+        
+        }
+        function pausesong() {
+            let au = document.getElementById("audiol");
+            au.pause();
+        }
+
+    </script>
+</head>
+<body align="center">
+    <div>
+    <p><h1>การแทรกวิดีโอ</h1></p>
+    <video src="img/video1 (1).mp4" width="968"height="540"controls="controls"></video>
+    </div>
+    <br>
+    <!-- การแทรกวิดีโอจาก youtube -->
+    <div>
+        <iframe width="560" height="315" src="https://www.youtube.com/watch?v=eA0lHNZ1KCA&pp=ygUP4LmC4Lij4LmA4LiL4LmI"title="youtube video player" frameborder="0"></iframe>
+        <iframe width="560" height="315" src="https://www.youtube.com/watch?v=eA0lHNZ1KCA&pp=ygUP4LmC4Lij4LmA4LiL4LmI"title="youtube video player" frameborder="0"></iframe>
+
+    </div>
+    <!-- การแทรก audio -->
+    <div>
+        <p><h1>การแทรก audio</h1></p>
+        <button onclick="playsong();"></button>
+        <button onclick="pause();"></button>
+        <audio id="audio" src="img/rose.mp3" controls="controls"></audio>
+    </div>
+</body>
+</html>
