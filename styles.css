@@ -7,11 +7,6 @@
     margin: 0;
     padding: 0;
     box-sizing: 0;
-    animation-fill-mode: none;
-    transition: 0.5s;
-
-
-
 }
 /* ------------------ MENU----------------- */
 
@@ -60,18 +55,7 @@ a{
 }
 .logo{
     font-size: 30px;
-
-
-
 }
-
-
-
-
-
-
-
-
 /* table style */
 .styled-table { 
     width: 100%;
@@ -178,13 +162,10 @@ a{
     max-width: 1140px;
     justify-content: center;
     text-align: center;
-    
-
 }
 
 
 .pich-item img {
-
     width: 300px;
     border-radius: 100%;
     box-shadow: 0 0 10px rgb(49, 43, 18);
@@ -194,7 +175,6 @@ a{
 .pich-item p{
     box-shadow: rgb(170, 169, 157);
     color: rgb(0, 0, 0);
-
 }
 
 .pic-info img:hover{
