@@ -166,21 +166,19 @@ a{
 }
 
 
-.pich-item img {
+.pich-item img{
     width: 300px;
     border-radius: 100%;
-    box-shadow: 0 0 10px rgb(49, 43, 18);
+    box-shadow: 0 0 10px ;
     align-items: center;
-    animation-fill-mode: none;
     transition: 0.5s;
 }   
+.pic-info img:hover{
+    transform: scale(1,1);
+}
 .pich-item p{
     box-shadow: rgb(170, 169, 157);
     color: rgb(0, 0, 0);
-}
-
-.pic-info img:hover{
-    transform: scale(1,1);
 }
 .content{
     display: grid;
