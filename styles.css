@@ -7,7 +7,7 @@
     margin: 0;
     padding: 0;
     box-sizing: 0;
-    transition:0.5s;
+    transition: 0.5s;
 }
 /* ------------------ MENU----------------- */
 
@@ -164,23 +164,15 @@ a{
     justify-content: center;
     text-align: center;
 }
-
-img {
-    width: 300px;
-    height: 300px;
-    transition: transform 0.3s ease; /* ทำให้การเปลี่ยนแปลงเกิดขึ้นอย่างสมูท */
-}
-
-/* คลาสเมื่อคลิก */
-.bounce {
-    transform: scale(1.2); /* ขยายภาพเล็กน้อย */
-}
 .pich-item img{
     width: 300px;
     border-radius: 100%;
     box-shadow: 0 0 10px ;
     align-items: center;
+    transition:0.5s;
 }   
+.pic-info img:hover {
+    transform: scale(1.2); /* ขยายภาพเล็กน้อย */
 .pich-item p{
     box-shadow: rgb(170, 169, 157);
     color: rgb(0, 0, 0);
