@@ -173,6 +173,7 @@ a{
 }   
 .pic-info img:hover {
     transform: scale(1.2); /* ขยายภาพเล็กน้อย */
+}
 .pich-item p{
     box-shadow: rgb(170, 169, 157);
     color: rgb(0, 0, 0);
