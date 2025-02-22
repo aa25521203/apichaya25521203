@@ -214,3 +214,39 @@ a{
     column-gap: 10px;
 }
 /* https://www.flaticon.com/--แจกภาพ */
+
+.title1{
+    text-align: center;
+    padding: 12px;
+}
+.picedu{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+.pichedu-item {
+    max-width: 1140px;
+    justify-content: center;
+    text-align: center;
+}
+.pichedu-item img{
+    width: 300px;
+    border-radius: 100%;
+    box-shadow: 0 0 10px ;
+    align-items: center;
+    transition:0.5s;
+}   
+.picedu-info img:hover {
+    transform: scale(1.2); /* ขยายภาพเล็กน้อย */
+}
+.pichedu-item p{
+    box-shadow: rgb(170, 169, 157);
+    color: rgb(0, 0, 0);
+}
+.education{
+    display: grid;
+    grid-template-columns: repeat(3,ifr);
+    max-width: 1140px;
+    margin: 0 auto;
+    column-gap: 5px;
+}
