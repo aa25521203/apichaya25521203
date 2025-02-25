@@ -260,6 +260,7 @@ a{
     text-align:center;
 }
 .cer{
+     background-image: url("img/3.jpg"),url("img/5.jpg");
     background-repeat: no-repeat;
     background-size: cover;
 }
