@@ -259,3 +259,7 @@ a{
     column-gap: 5px;
     text-align:center;
 }
+.cer{
+    background-repeat: no-repeat;
+    background-size: cover;
+}
