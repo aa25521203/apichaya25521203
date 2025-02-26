@@ -259,3 +259,8 @@ a{
     column-gap: 5px;
     text-align:center;
 }
+.title{
+    text-align:center;
+    background-color:rgb(205, 241, 216);
+
+}
