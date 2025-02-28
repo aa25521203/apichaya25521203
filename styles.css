@@ -259,8 +259,8 @@ a{
     column-gap: 5px;
     text-align:center;
 }
-.title3{
-    text-align:center;
-    background-color:rgb(205, 241, 216);
-
+.cer{
+    background-color:pink;
+    background-image: url("img/10.png"),url("img/20.png"),url("img/30.png"),url("img/40.png"),url("img/50.png"),url("img/60.png"),url("img/70.png");
+    background-size: cover;
 }
