@@ -259,3 +259,33 @@ a{
     column-gap: 5px;
     text-align:center;
 }
+/* ---------------contact--------------- */
+.title2{
+    text-align: center;
+    padding: 12px;
+}
+
+.piccon{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+.pichcon-item {
+    max-width: 1140px;
+    justify-content: center;
+    text-align: center;
+}
+.pichcon-item img{
+    width: 300px;
+    border-radius: 100%;
+    box-shadow: 0 0 10px ;
+    align-items: center;
+    transition:0.5s;
+}   
+.piccon-info img:hover {
+    transform: scale(1.2); /* ขยายภาพเล็กน้อย */
+}
+.pichcon-item p{
+    box-shadow: rgb(170, 169, 157);
+    color: rgb(0, 0, 0);
+}
