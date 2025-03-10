@@ -289,3 +289,7 @@ a{
     box-shadow: rgb(170, 169, 157);
     color: rgb(0, 0, 0);
 }
+.indexx{
+    max-width:100%;
+    height:auto;
+}
